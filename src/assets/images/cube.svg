@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="211" height="245" viewBox="0 0 211 245">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fffefd;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1204" y="614" width="211" height="245" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="2" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="4.243"/>
+      <feFlood result="flood" flood-color="#bbc2ce" flood-opacity="0.32"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Прямоугольник_скругл._углы_4_копия_3" data-name="Прямоугольник, скругл. углы 4 копия 3" class="cls-1" d="M1228.39,639.15s38.76-9.61,80.59-9.61c41.71,0,80.58,9.61,80.58,9.61a7.392,7.392,0,0,1,7.39,7.392V831.369a7.392,7.392,0,0,1-7.39,7.392H1229.13a7.392,7.392,0,0,1-7.39-7.392L1221,646.542A7.392,7.392,0,0,1,1228.39,639.15Z" transform="translate(-1204 -614)"/>
+</svg>

@@ -1,0 +1,89 @@
+:root{
+    font-family: 'Museo Sans Cyrl', serif;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, ::before, ::after {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+$big: 0.94vw;
+$ordinary: 0.85vw;
+$fnt15: 0.8vw;
+$fnt14: 0.75vw;
+$small: 0.65vw;
+
+$gradient-pink:  -webkit-linear-gradient( 90deg, rgb(238,133,140) 0%, rgb(244,161,164) 55%, rgb(250,188,188) 98%);
+$pink-shadow: 0.2vw 0.2vw 0.8vw rgb(247,168,170);
+
+@mixin flex($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: wrap;
+}
+
+
+//default styles 
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none; 
+    color: black;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.main {
+    min-height: 90vh;
+    letter-spacing: 0.05em;
+    background: url('../../src/assets/images/main-bg.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+// Conecting fonts from design
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('/src/assets/fonts/MUSEOSANSCYRL_0.OTF');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('/src/assets/fonts/MUSEOSANSCYRL_1.OTF');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('/src/assets/fonts/MUSEOSANSCYRL_2.OTF');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('/src/assets/fonts/MUSEOSANSCYRL_3.OTF');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('/src/assets/fonts/MUSEOSANSCYRL.OTF');
+    font-weight: 900;
+}
+
+
+@import 'header';
+@import 'first-section';
+@import 'modal';
+@import 'modal-selector';
+@import 'adaptive';
