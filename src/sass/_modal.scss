@@ -30,7 +30,7 @@
 }
 
 .modal-container{
-    width: 25.8vw;
+    width: 23vw; //25.8vw;
     margin: 0 auto;
 }
 
@@ -78,12 +78,9 @@
     background: $gradient-pink;
     border-bottom: 2px solid #d7747a;
     box-shadow: $pink-shadow;
-
-    p:nth-child(1) {
-        text-align: left;
-        font-weight: bold;
-        padding: 0 1vw;
-    }
+    text-align: left;
+    font-weight: bold;
+    padding: 0 2vw;
 }
 
 .btn--modal__img{
@@ -171,14 +168,14 @@
 
 .leaf-container {
     position: relative;
-    bottom: 0;
-    right: 0;
+    bottom: 13%;
+    right: 10%;
 }
 
 .leaf-blurred-img {
     position: absolute;
-    bottom:  -0.4vw;
-    right: -0.4vw;
+    bottom: 0.6vw;
+    right: -16%;
     width: 3.6vw;
     height: auto;
 }
@@ -187,7 +184,7 @@
     position: absolute;
     width: 3.91vw;
     height: auto;
-    bottom: 0;
-    right: 0;
-    transform: translate(18%, 80%);
+    bottom: -2.4vw;
+    right: -19.2%;
+    //transform: translate(18%, 80%);
 }

@@ -28,7 +28,7 @@
                     <div class="header__link-red-wrapper">
                         <a href="/" class="header__link-red">СМОТРЕТЬ НА КАРТЕ</a>
                         <div class="map-son-hover">
-                            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0a60aaec83f35f151fb7f834ab0f0fb43e5725c5b3f4ae441d5f869a6b3ef805&amp;width=420&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script> 
+                            <script async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0a60aaec83f35f151fb7f834ab0f0fb43e5725c5b3f4ae441d5f869a6b3ef805&amp;width=420&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script> 
                         </div>
                     </div>
 
@@ -45,7 +45,7 @@
                             <div class="green-circle"></div>
                             <p>Звоните, мы сейчас работаем</p>
                         </div>
-                        <a href="" type="tel">+375 33 382 24 99</a>
+                        <a href="tel:+375333822499">+375 33 382 24 99</a>
                     </div>
                 </div>
                 <div class="header-info__hours">
@@ -98,7 +98,7 @@
                 <li class="advantages-item">результат уже после первой процедуры.</li>
             </ul>
             <button class="btn btn--first-section" id="btn-js" onclick="showModalWindow()">
-                <p>получить карту<br /> клиента бесплатно</p>
+                получить карту<br /> клиента бесплатно
                 <img class="btn__branch-img" src="./src/assets/images/branch.png" alt="">
             </button>
         </div>
@@ -128,9 +128,6 @@
 </div>
         </section>
     </div>
-    <section class="section-second" style="min-height: 20vh;">
-
-    </section>
 <!--MODAL POP-UP-->
     <div class="modal-shadow showModal" id="modalWin">
         <div class="modal-window">
@@ -139,7 +136,7 @@
                 <p class="heading-modal"><span>Получите</span> программу обучения</p>
                 <p class="heading__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt tut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
                 <img class="modal-book" src="./src/assets/images/modal-book.png" alt="">
-                <form action="" class="modal-form" id="modal-form">
+                <form action="POST" class="modal-form" id="modal-form">
                 <!--option-->
 
                 <div class="selection-wrapper">
@@ -158,7 +155,7 @@
                     <input class="input" type="text" name="client-name" id="client-name" placeholder="Ваше имя">
                     <input class="input" type="tel" name="client-tel" id="client-tel" placeholder="Ваш номер телефона">
                     <button class="btn btn--modal" id="submit-modal" onclick="submitFunction()">
-                        <p>Получить программу</p>
+                        Получить программу
                         <img class="btn--modal__img" src="./src/assets/images/plant-modal.png" alt="">
                     </button>
                 </form>
