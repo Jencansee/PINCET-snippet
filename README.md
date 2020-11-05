@@ -1,7 +1,15 @@
-# PINCET-snippet
-Working with project: 
+# Snippet of the website "Tweezers"
+This is the snippet of the website I've done to as a freelance job.
 
-1. Run 'npm i';
-2. Run 'gulp serve' to run a local server.
+All SCSS was styled without using absolute units (request of the client).
 
-Made with HTML, SCSS, JS, GULP
+## Setup
+To run this project, install it locally using npm and start server using gulp:
+
+```
+$ git clone https://github.com/Jencansee/PINCET-snippet
+$ cd PINCET-snippet
+$ npm i
+$ gulp serve
+```
+Buit with HTML, SCSS, JS, GULP
